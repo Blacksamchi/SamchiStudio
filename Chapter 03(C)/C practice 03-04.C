@@ -7,7 +7,7 @@ int main(void)
 
   puts("두 개의 정수를 입력해주세요");
   printf("정수 A :"); scanf("%d",&na); /* A = 6 , B = 12 */
-  printf("정수 B :"); scnaf("%d",&nb);
+  printf("정수 B :"); scanf("%d",&nb);
 
   printf("A == B = %d\n", na == nb); /* 0 */
   printf("A != B = %d\n") na != nb); /* 1 */
